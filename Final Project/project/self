@@ -1,0 +1,31 @@
+> what am i gonna make?
+
+>> a software for a shopping
+>>> name: $hopping
+>>> icon: static/favicon.ico
+>>> stylesheet: static/style.css
+>>> code in header:
+        <link href="/static/favicon.ico" rel="icon">
+        <link href="/static/styles.css" rel="stylesheet">
+
+>> bottstrap :o
+
+>> two types of login
+>>> type1: shop owner
+>>> type2: customer
+
+>> database
+>>> one table of shop owners
+>>> one table of costumers
+>>> one table of items
+
+>> webpages
+>>> index_shop
+        > pending orders
+>>> items
+        > add
+        > remove
+
+>>> index_customer
+        > placed orders
+        > compeleted orders

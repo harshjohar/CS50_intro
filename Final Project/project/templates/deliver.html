@@ -1,0 +1,14 @@
+{% extends "layout_s.html" %}
+
+{% block title %}
+    Deliver
+{% endblock %}
+
+{% block main %}
+    <form action="/deliver" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="deliver" placeholder="Order_ID" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Deliver</button>
+    </form>
+{% endblock %}

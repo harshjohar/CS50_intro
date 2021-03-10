@@ -1,0 +1,24 @@
+{% extends "layout_s.html" %}
+
+{% block title %}
+    Log In Shop
+{% endblock %}
+
+{% block main %}
+    <table class= 'table table-hover'>
+        <tr>
+            <th>Order_ID</th>
+            <th>Customer_ID</th>
+            <th>Item</th>
+            <th>Quantity</th>
+        </tr>
+        {% for order in orders %}
+        <tr>
+            <td>{{ order.Order_ID }}</td>
+            <td>{{ order.Customer_ID }}</td>
+            <td>{{ order.item }}</td>
+            <td>{{ order.quantity }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

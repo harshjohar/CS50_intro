@@ -1,0 +1,102 @@
+.index
+{
+    background-image : url("1.png");
+    background-position : center;
+    background-repeat : repeat-x;
+    margin-left : 50px;
+}
+
+.h1
+{
+    color : red;
+    font-size : 48px;
+    text-align : center;
+}
+
+.p1
+{
+    color : blue;
+    font-size : 26px;
+}
+
+.p2
+{
+    color : green;
+    font-size : 24px;
+}
+
+.aside
+{
+    width: 95%;
+    padding-left: 15px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.ul
+{
+    color : darkgreen;
+}
+
+.p3
+{
+    font-size : 32px;
+    color : brown;
+}
+
+.study
+{
+    background-image : url('2.png');
+    background-position : center;
+    background-repeat : repeat-y;
+    margin-left : 50px;
+}
+
+table
+{
+    border : 3px solid red;
+    border-collapse : collapse;
+}
+
+th
+{
+    border : 1.5px solid green;
+    font-size : 34px;
+    color : blue;
+}
+
+td
+{
+    border : 1px solid black;
+    font-size : 28px;
+    color : white;
+}
+
+.hobbies
+{
+    background-image : url('3.png');
+    background-position : center;
+    background-repeat : repeat-y;
+    margin-left : 100px;
+}
+
+.p4
+{
+    color : darkblue;
+    font-size : 36px;
+}
+
+#1
+{
+    color : white;
+}
+
+.bestmoments
+{
+    color : white;
+    background-image : url('4.png');
+    background-position : center;
+    background-repeat : repeat-y;
+    margin-left : 100px;
+}

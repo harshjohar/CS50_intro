@@ -1,0 +1,7 @@
+Usage
+Your program should behave per the examples below.
+
+$ ./filter -g infile.bmp outfile.bmp    greycale
+$ ./filter -s infile.bmp outfile.bmp    sepia
+$ ./filter -r infile.bmp outfile.bmp    reflected
+$ ./filter -b infile.bmp outfile.bmp    blur

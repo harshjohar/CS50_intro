@@ -1,0 +1,30 @@
+STR are short tendem repeat
+small segments of 4 nucleotideds
+used to identify the person from dna
+each person has different STR
+
+steps:
+1. open the csv file
+2. read it
+3. for each STR count the longest run of consecutive repeats
+4. compare the count againset the given csv file
+
+
+1.
+>first row are headings
+>every other row is for a person
+>csv module has reader and Dictreader
+>sys has argv
+>sys.argv gives command line arguments
+>first command line argumnet is the database(csv)file
+>second command line argument is the text file
+>openm by using open(filename)
+
+2.
+>read by using f.read()    >f is the name of file
+
+3.
+>for each position how many time the STR repeats starting from that position
+>for each position check successive substring that is the STR
+>count the maximum
+>use len function

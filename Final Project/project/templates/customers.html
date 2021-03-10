@@ -1,0 +1,21 @@
+{% extends "layout_s.html" %}
+
+{% block title %}
+    Customers
+{% endblock %}
+
+{% block main %}
+    <table class = 'table table-hover'>
+        <tr>
+            <th>Customer_ID</th>
+            <th>Name</th>
+        </tr>
+
+        {% for customer in customers %}
+        <tr>
+            <td>{{ customer.Customer_ID }}</td>
+            <td>{{ customer.username }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
